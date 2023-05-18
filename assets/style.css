@@ -30,6 +30,7 @@ textarea {
 textarea {
   border: rgb(11, 68, 0) .12em solid;
   font-style: italic;
+  border-radius: 0;
 }
 
 .row {
