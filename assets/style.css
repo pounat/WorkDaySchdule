@@ -1,0 +1,37 @@
+    .past {
+    background-color: #a0550081;
+    color: #275244;
+  }
+  
+  .present {
+    background-color: #5fbb6fcb;
+    color: #275244;
+  }
+  
+  .future {
+    background-color: #E9ECEF;
+    color: #275244;
+  }
+
+textarea {
+    resize: none;
+  }
+
+.buttonSave {
+  border: rgb(11, 68, 0) .12em solid;
+  border-radius: 0 15px 15px 0;
+}
+
+.timeSlot {
+  border: rgb(11, 68, 0) .12em solid;
+  border-radius: 15px 0 0 15px;
+}
+
+textarea {
+  border: rgb(11, 68, 0) .12em solid;
+  font-style: italic;
+}
+
+.row {
+  margin-bottom: 5px;
+}

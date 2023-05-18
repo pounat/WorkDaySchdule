@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Day Scheduler</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <!-- My StyleSheet-->
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="jumbotron text-center">
+        <h1>Work Day Schedule</h1>
+        <p>Simple Calendar app to schedule your work day.</p>
+        <p id="current"></p>
+    </header>
+
+    <div class="container">
+
+        <div class="present"></div>
+        <div class="past"></div>
+        <div class="future"></div>
+        <div class="hour"></div>
+
+
+        <!-- Setting Time Blocks -->
+        <!-- 9am -->
+        <div class="row">
+            <div class="col-2 timeSlot">9:00am</div>
+            <textarea id="9" class="col-8 nine" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 10am -->
+        <div class="row">
+            <div class="col-2 timeSlot">10:00am</div>
+            <textarea id="10" class="col-8 ten" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 11am -->
+        <div class="row">
+            <div class="col-2 timeSlot">11:00am</div>
+            <textarea id="11" class="col-8 eleven" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 12pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">12:00pm</div>
+            <textarea id="12" class="col-8 twelve" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 1pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">1:00pm</div>
+            <textarea id="13" class="col-8 one" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 2pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">2:00pm</div>
+            <textarea id="14" class="col-8 two" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 3pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">3:00pm</div>
+            <textarea id="15" class="col-8 three" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 4pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">4:00pm</div>
+            <textarea id="16" class="col-8 four" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+        <!-- 5pm -->
+        <div class="row">
+            <div class="col-2 timeSlot">5:00pm</div>
+            <textarea id="17" class="col-8 five" placeholder="Task"></textarea>
+            <button class="col-2 buttonSave" onclick="saveText">SAVE</button>
+        </div>
+
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- DayJS  -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+
+    <!-- My JavaScript -->
+    <script src="./assets/app.js"></script>
+
+</body>
+</html>
